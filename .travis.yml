@@ -6,4 +6,4 @@ before_install:
   - docker build -t gagandoc/docker-pocs -f Dockerfile.dev .
 
 script:
-  - docker run gagandoc/docker-pocs npm runn test -- --coverage
+  - docker run gagandoc/docker-pocs npm run test -- --coverage
